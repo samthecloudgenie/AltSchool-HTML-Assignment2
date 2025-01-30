@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hatran&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+        <a href="table.html">Table</a>
+    </nav>
+    
+    <h1>About Me</h1>
+    <p>
+      Welcome to my page! My name is Onah Samuel, a student of the Cloud
+      Engineering track at AltSchool Africa. Below are some media elements that
+      create a message about myself:
+    </p><hr>
+
+    <!-- Picture Element -->
+    <picture>
+      <source srcset="assets/image/20250130_115926.jpg" media="(min-width: 1025px)" />
+      <source srcset="assets/image/20250130_115926.jpg" media="(min-width: 601px)" />
+      <source srcset="assets/image/20250130_115926.jpg" media="(min-width: 320px)" />
+      <img src="assets/image/20250130_115926.jpg"
+        alt="A responsive image representing me"
+      />
+    </picture><hr>
+
+    <!-- Audio Element -->
+    <p>An audio introducing myself:</p>
+    <audio controls>
+      <source src="./assets/audio/2025_01_30_12_01_18.m4a" />
+    </audio><hr>
+
+    <!-- Video Element -->
+    <p>Watch my favorite video:</p>
+    <video controls>
+      <source src="./assets/video/lv-0-20250130121807_n6agp0hf.mp4" type="video/mp4" />
+      
+    </video>
+  </body>
+</html>

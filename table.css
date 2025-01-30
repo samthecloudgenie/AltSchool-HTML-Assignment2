@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; 
+  font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    
+    
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
